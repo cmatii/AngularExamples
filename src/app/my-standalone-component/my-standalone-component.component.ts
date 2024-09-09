@@ -30,7 +30,7 @@ export class MyStandaloneComponentComponent {
   myFunc() {
 
     var newTask = ((document.getElementById("form1") as HTMLInputElement).value);
-    alert(newTask);
+    alert("Valor nuevo: "+newTask);
     alert(this.TodoItems.length);
     
     const newItem: TodoItem = { id:this.TodoItems.length+1, description:newTask, Status:"In Progress"  };

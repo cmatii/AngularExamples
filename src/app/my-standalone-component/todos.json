@@ -1,6 +1,4 @@
 [ 
-    {"id":1, "description": "ObjectOriented", "Status":"In progress" },
-    {"id":2, "description": "Event Oriente", "Status":"In progress" },
-    {"id":3, "description": "Function Oriented", "Status":"Done" }
+    {"id":1, "description": "Martillo ", "Status":"In progress" }
 
 ] 
