@@ -1,2 +1,11 @@
-<app-hello-world></app-hello-world>
-<app-my-standalone-component></app-my-standalone-component>
+<h1>Navegación por router</h1>
+  <nav>
+    <ul>
+      <li><a routerLink="hellorWorld-component" routerLinkActive="active">Hola Mundo Component</a></li>
+      |
+      <li><a routerLink="mystandAlones-component" routerLinkActive="active">Todo Component</a></li>
+    </ul>
+  </nav>
+
+  <!-- The routed views render on <router-outlet> -->
+  <router-outlet></router-outlet>

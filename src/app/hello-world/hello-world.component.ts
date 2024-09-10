@@ -11,6 +11,15 @@ export class HelloWorldComponent {
 
 
 
+  dbFunct() {
 
-  
+    
+
+throw new Error('Method not implemented.');
+}
+
+
+
+
+
 }
